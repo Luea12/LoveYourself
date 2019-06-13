@@ -1,0 +1,87 @@
+#news-body
+{
+	width: 100%;
+	margin: auto;
+	margin-top: 12rem;
+	display: inline-block;
+}
+
+#slide
+{
+	float:left;
+	width:50%;
+	margin-left:5%;
+	text-align: center;
+	font-family: Arial;
+	color: LightSalmon;
+	margin-right: 15%;
+}
+#subscribe
+{
+	background-image: linear-gradient(	#fce8e8, white);
+	float: left;
+	width: 20%;
+	margin: auto;
+	margin-bottom: 4rem;
+}
+#sub-message span
+{
+	display: block;
+	font-size: 1em;
+	font-weight: bold;
+	font-family: Lucida Sans Unicode;
+	color: #adadeb;
+	text-align: center;
+	margin:1em;
+}
+#sub-input
+{
+	width: 80%;
+	margin: auto;
+	margin-top:0.5em;
+	margin-bottom:1.5em;
+	display: block;
+	color:grey;
+}
+#sub-submit
+{
+	width: 40%;
+	margin: auto;
+	display: block;
+	margin-bottom: 3em;
+	color:#adadeb;
+}
+@media only screen and (max-width: 800px) and (min-width: 601px) {
+
+	#sub-message
+	{
+		font-size: 0.8em;
+	}
+	#sub-submit
+	{
+		width: 60%;
+	}
+	#news-body
+	{
+		margin-top: 5rem;
+	}
+
+
+	}
+
+@media only screen and (max-width: 600px) {
+
+	#sub-message
+	{
+		font-size: 0.8em;
+	}
+	#sub-submit
+	{
+		width: 60%;
+	}
+
+
+	}
+	
+	
+

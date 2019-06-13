@@ -1,0 +1,128 @@
+html
+{
+	font-family:  'Overlock SC', cursive;
+	font-family: 'Cinzel', serif;
+}
+article
+{
+    margin-top:12rem;
+
+}
+.entry-title
+{
+	width: 60%;
+	margin: auto;
+	text-align: center;
+	font-family: Cinzel, serif;
+	color: #c2c2d6;
+	font-size: 3em;
+	text-shadow: 0.05em 0.05em #8c8cc0;
+
+}
+.entry-introd
+{
+	font-family: Overlock SC, cursive;
+	font-size:1em;
+	margin: auto;
+	width:60%;
+	color: #c2c2d6;
+	padding-left: 5rem; 
+}
+.entry-content
+{
+	
+	margin: auto;
+	width:60%;
+	margin-top: 2rem;
+	font-family: Indie Flower;
+	color: #9595b7;
+	font-size: 1.2rem;
+	padding: 3rem;
+	border:0.05em solid #c2c2d6;
+	text-align: justify;
+
+
+
+
+}
+.entry-content h4
+
+{
+	text-indent: 2em;
+}
+.entry-content p
+
+{
+	text-indent: 1em;
+}
+#blog-fig
+{
+
+	width: 35%;
+	float:left;
+	text-align: center;
+	font-size: smaller;
+	font-style: italic;
+	font-family: Indie Flower;
+	font-weight: bold;
+	
+
+
+
+
+}
+#blog-fig a img
+{
+	width: 90%;
+	height: auto;
+
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; 
+	padding-top: 2rem;
+	height: 0;
+	margin-top: 4rem;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+blockquote
+{text-align: center;}
+@media only screen and (max-width: 600px) {
+
+	.entry-title
+	{
+		font-size: 2rem;
+		margin-bottom: 1rem;
+	}
+	.entry-content
+	{
+		font-size: 1rem;
+	}
+	article
+	{
+		margin-top: 14rem;
+	}
+}
+@media only screen and (max-width: 800px) and (min-width: 601px) {
+
+	.entry-title
+	{
+		font-size: 2rem;
+		margin-bottom: 1rem;
+	}
+	.entry-content
+	{
+		font-size: 1rem;
+	}
+	article
+	{
+		margin-top: 4rem;
+	}
+}

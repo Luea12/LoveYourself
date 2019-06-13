@@ -1,0 +1,244 @@
+html
+{
+	font-size:10px;
+}
+@font-face {
+    font-family: Countryside;
+    src: url("../Fonturi/Countryside Personal Use.ttf") format("truetype");
+}
+body
+{
+	overflow: hidden;
+}
+#question
+{
+	font-family: "Lucida Comic Sans";
+	font-family: Countryside;
+	font-size: 3.4rem;
+	width: 50%;
+	height: auto;
+	margin: auto;
+	text-align: center;
+	margin-top: 12%;
+}
+#question h1
+{
+	color:pink;
+	background: -webkit-linear-gradient(left, lightblue,pink,#CCCCFF,lightblue, pink);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+	background-size: 200% 400%;
+	-webkit-animation: color-change 10s ease infinite;
+	-moz-animation: color-change 10s ease infinite;
+	animation: color-change 10s ease infinite ;
+}
+@-webkit-keyframes color-change
+{
+	0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+	
+	
+}
+#yes
+{
+
+	opacity: 0;
+}
+#no
+{
+	opacity: 0;
+	
+}
+#panel
+{ 
+	background-color: lavenderblush;
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	left: 0;
+	z-index: -2;
+}
+#deco
+{
+	width:24rem;
+	height:24rem;
+	position: absolute;
+	top:0rem;
+	left: 50%;
+	margin-left: -12rem;
+	background-color: white;
+	transform: translateY(-50%) rotate(45deg);
+	z-index:-1 ;
+}
+#flower
+{
+	width:20%;
+	height: auto;
+	margin: auto;
+	text-align: center;
+	margin-top: 1.5rem; 
+
+
+}
+#flower img
+{
+	width:40%;
+	height: auto;
+	z-index: 3;
+}
+
+#hearts
+{
+	width: 100%;
+	height: auto; 
+}
+
+
+button
+{
+	background-color: white;
+	height:5rem;
+	transform: rotate(-45deg);
+	width: 5rem;
+	border:none;
+	outline: none;
+
+
+}
+button span
+{
+	color: lightsalmon;
+	font-family: Countryside;
+	font-weight: bold;
+	display: inline-block;
+	transform: rotate(45deg);
+	margin-bottom: 1.5rem;
+	margin-left: 1.4rem;
+}
+button:before, button:after
+{
+	content: "";
+	background-color: white;
+	border-radius: 50%;
+	height: 5rem;
+	position: absolute;
+	width: 5rem;
+}
+button:after
+{
+	top:-2.5rem;
+	left: 0;
+	z-index: -1;
+}
+button:before
+{
+
+	right:-2.5rem;
+	top:0;
+	z-index: -1;
+}
+#b-yes
+{
+	margin-right: 20rem;
+
+}
+p
+{
+	margin-top: 5rem;
+	font-size: 2.5rem;
+	color:lightsalmon;
+	transition: opacity 0.5s linear;
+}
+#yes
+{
+	margin-top: -8rem;
+
+}
+
+
+
+#b-yes:hover ~ #yes
+{
+	
+	opacity: 0.7;
+	
+}
+#b-yes:hover span
+{
+	font-size: 1rem;
+}
+#b-no:hover span
+{
+	font-size: 1rem;
+}
+#b-no:hover ~ #no
+{
+	opacity: 0.7;
+}
+
+@media only screen and (max-width: 800px){
+
+html
+{
+	font-size:13px;
+}
+#question
+{
+	width: 100%;
+	font-size: 2.5rem;
+	margin-top: 30%;
+}
+span
+{
+	font-size: 1.5rem;
+}
+p
+{
+	font-size: 2rem;
+}
+#flower
+{
+	width:50%;
+}
+
+}
+@media only screen and (max-width: 600px){
+
+html
+{
+	font-size:8px;
+}
+#question
+{
+	width: 100%;
+	font-size: 2rem;
+	margin-top: 45%;
+}
+span
+{
+	font-size: 1.5rem;
+}
+p
+{
+	font-size: 2rem;
+}
+#deco
+{
+	width:18rem;
+	height:18rem;
+		margin-left: -9rem;
+}
+#flower
+{
+	width:50%;
+}
+
+}
+
+
+
+
